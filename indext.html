@@ -1,1 +1,99 @@
-this my first test 
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://js.jirengu.com
+
+Copyright (c) 2017 by anonymous (http://js.jirengu.com/nenalutiva/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>模态框</title>
+<style id="jsbin-css">
+ * {
+  margin: 0;
+}
+ 
+body {
+  background: #999999;
+ /*  border:1px solid red; */
+}
+.layout {
+  width: 600px;
+  margin: 0 auto;
+  /* border:1px solid red; */
+}
+.main {
+  font-size: 32px;
+  font-weight: bold; 
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.main>p {
+  margin-top: 16px;
+  
+}
+
+.header {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 3;
+  color: #fff;
+  padding: 0 16px; 
+  background: #009688;
+}
+.header>span {
+  float:right;
+  font-size: 16px;
+  font-weight: bold;
+}
+.content {
+  padding: 8px 16px;
+  background: #fff;
+  line-height: 3;
+}
+.footer {
+  font-size: 18px;
+  line-height: 3;
+  color: #fff;
+  padding: 0 16px;
+  background: #009688;
+}
+.box{
+ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+</style>
+</head>
+<body>
+  <div class="layout">
+    
+    <div class="main">
+      <p>这是页面内容</p>
+      <p>这是页面内容</p>
+      <p>这是页面内容</p>
+      <p>这是页面内容</p>
+    </div>
+    
+    <div class="box">
+      <div class="header">
+        <span>x</span>
+        <p>头部</p>
+      </div>
+      
+      <div class="content">
+        <p>这是内容</p>
+        <p>这是内容</p>
+      </div>
+      
+      <div class="footer">
+        <p>尾部</p>
+      </div>
+      
+    </div>
+  </div>
+</body>
+</html>
